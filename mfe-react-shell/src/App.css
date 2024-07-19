@@ -1,0 +1,38 @@
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+}
+h1{
+  margin:0;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.navbar {
+  border: 0.25rem solid #0D6C90;
+  height: 10rem;
+  width: calc(100% - 2.5rem);
+  margin: 1rem 1rem 0 1rem;
+}
+
+.title-text {
+  color: #0D6C90;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  ;
+}
+
+.counter-text{
+  color:#0D6C90;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter-container{
+  display: flex;
+  justify-content: center;
+}
